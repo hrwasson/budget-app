@@ -15,8 +15,8 @@ import plotly.express as px
 from datetime import date
 
 # CSV files used throughout 
-b = 'budget.csv'
-e = 'expenses.csv'
+b = 'budget.csv' # you will need to make sure these are in your directory! 
+e = 'expenses.csv' # you will need to make sure these are in your directory! 
 
 # functions used throughout app
 def create_dataframe(csv): 
